@@ -1,1 +1,1 @@
-web: thin start --rackup config.ru --port $PORT
+web: bundle exec ruby app.rb
