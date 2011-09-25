@@ -1,1 +1,1 @@
-web: thin start -R config.ru
+web: thin start --rackup config.ru --port $PORT
