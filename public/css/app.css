@@ -1,3 +1,9 @@
 
-body { background-color: darkblue; color: lightgray };
+
+body       { background-color: darkgray; }
+.gameboard { margin-left: 200px; }
+.gamerow   { clear: both; }
+.cell      { color: red; background-color: white; width: 200px; height: 200px; margin: 20px; padding: 20px; float: left; }
+.cross     { background: url("/images/circle.gif") no-repeat; background-size: cover; }
+.circle    { background: url("/images/cross.gif") no-repeat; background-size: cover;}
 
